@@ -1,7 +1,8 @@
 import React from "react";
 import "./hero.css";
 import CountUp from "react-countup";
-// import {HilocationMarker} from 'react-icons/hi'
+import {HiLocationMarker} from 'react-icons/hi'
+
 const Hero = () => {
   return (
     <section className="hero-wrapper">
@@ -19,7 +20,7 @@ const Hero = () => {
         <span className="secondaryText">Forget all Difficulties in finding a residence for you  </span>
         </div>
         <div className="flexCenter search-bar">
-          {/* <HilocationMarker color = "var(--blue)" size = {25}/> */}
+          <HiLocationMarker color = "var(--blue)" size = {25}/> 
           <input type="text" />
           <button className="button">Search</button>
         </div>
