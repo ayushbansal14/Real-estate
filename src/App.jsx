@@ -6,6 +6,7 @@ import Companies from "./components/Companies/Companies"
 import Residencies from "./components/Residencies/Residencies";
 import Value from "./components/value/value";
 import Contact from "./components/Contact/Contact"
+import GetStarted from "./components/GetStarted/GetStarted"
 function App() {
   return (
  <div className="App">
@@ -18,6 +19,7 @@ function App() {
     <Residencies/>
     <Value/>
     <Contact/>
+    <GetStarted/>
  </div>
   );
 }
